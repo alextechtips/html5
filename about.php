@@ -1,6 +1,7 @@
-<?php include_once("./includes/header.php"); ?>
-<body>
-    <h1 class="title">About Us</h1>
+<?php 
+     $page_title = "About";   
+    include_once("./includes/header.php"); 
+?>
     <p>All about us</p>
     <a href="./">Back home</a>
 

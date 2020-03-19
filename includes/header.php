@@ -7,3 +7,5 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>HTML 5 template</title>
 </head>
+<body>
+    <h1 class="title"><?php echo($page_title); ?></h1>
