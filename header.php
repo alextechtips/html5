@@ -7,8 +7,3 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>HTML 5 template</title>
 </head>
-<body>
-    <h1 class="title">hello world</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo atque itaque cupiditate! Velit quasi hic facere officiis, esse consequuntur et aperiam libero non aut assumenda earum recusandae quam unde.</p>
-</body>
-</html>
