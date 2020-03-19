@@ -5,3 +5,24 @@ body{
 footer{
     padding-top: 20px;
 }
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    nav{
+        text-align: right;
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 0 10px 0 10px;
+            }
+        }
+    }
+
+    
+}
