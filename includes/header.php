@@ -8,8 +8,9 @@
     <title>HTML 5 template</title>
 </head>
 <body>
+    
     <header>
-        <div class="logo"><img src="./img/startup_200.png" alt="site logo"></div>
+        <div class="logo">Startup Generation</div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -17,4 +18,6 @@
             </ul>
         </nav>
     </header>
-    <h1 class="title"><?php echo($page_title); ?></h1>
+
+    <div class="container">
+        <div class="title hero"><h1><?php echo($page_title); ?></h1></div>

@@ -2,27 +2,72 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-footer{
-    padding-top: 20px;
+header{
+    display: flex;
 }
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.logo{
+    width:200px;
+    height: 80px;
+    background: url("../img/startup_200.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -100000px;
+}
 
-    nav{
-        text-align: right;
-        ul li{
-            list-style-type: none;
-            display: inline-block;
+nav{
 
-            a{
-                text-decoration: none;
-                text-transform: uppercase;
-                padding: 0 10px 0 10px;
-            }
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0 10px 0 10px;
         }
     }
+}
 
-    
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-rows: 1fr;
+    height: 90vh;
+    overflow: auto;
+}
+
+.hero{
+    grid-area: title;
+    background: url("../img/hero01.jpg") rgba(115, 67, 5, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+    h1{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        min-height: 40vh;
+        color: #eee;
+        text-transform: uppercase;
+
+    }
+}
+
+.main{
+    grid-area: main;
+    padding: 0 10% 0 10%;
+    height: 100vh;
+}
+
+footer{
+    padding-top: 20px;
+    grid-area: footer;
+    justify-self: center;
+    align-self: center;
 }
