@@ -1,11 +1,25 @@
 <?php 
-    $page_title = "Home";
     include_once("./includes/header.php"); 
 ?>
-    <div class="main">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo atque itaque cupiditate! Velit quasi hic facere officiis, esse consequuntur et aperiam libero non aut assumenda earum recusandae quam unde.</p>
-        <p>This is the last line</p>
-        <a href="./about.php">Go to About</a>
+    <div class="page_header">
+        <div class="page_title">
+            <h1>Hello World</h1>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Heading 1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, error qui incidunt vitae, expedita laborum veritatis quia eum labore a non distinctio odit! Illo quae reiciendis impedit, cupiditate eaque officiis?
+            Apple</p>
+        <h2>Heading 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, error qui incidunt vitae, expedita laborum veritatis quia eum labore a non distinctio odit! Illo quae reiciendis impedit, cupiditate eaque officiis?
+            Apple</p>
+        <h3>Heading 3</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, error qui incidunt vitae, expedita laborum veritatis quia eum labore a non distinctio odit! Illo quae reiciendis impedit, cupiditate eaque officiis?
+            Apple</p>
+        <h4>Heading 4</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, error qui incidunt vitae, expedita laborum veritatis quia eum labore a non distinctio odit! Illo quae reiciendis impedit, cupiditate eaque officiis?
+            Apple</p>
     </div>
 
 <?php include_once("./includes/footer.php");

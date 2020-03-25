@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <title>HTML 5 template</title>
+    <title>HTML5</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
-    <header>
-        <div class="logo">Startup Generation</div>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.php">About</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="container">
-        <div class="title hero"><h1><?php echo($page_title); ?></h1></div>
+    <div class="wrapper">
+
+        <div class="logo"><img src="./img/startup_200.png" alt="Startup Generation" /></div>
+        <div class="main_nav">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="./about.php">About</a></li>
+            </ul>
+        </div>
