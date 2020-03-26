@@ -1,4 +1,5 @@
 <?php 
+    $page_title = "About Page";
     include_once("./includes/header.php"); 
 ?>
     <div class="page_header aboutus">
@@ -8,6 +9,20 @@
     </div>
 
     <div class="content">
+
+    <?php
+        $sql = "SELECT * FROM db_html.tbl_users";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "id: " . $row["id"]. " - Name: " . $row["firstName"]. " " . $row["lastName"]. "<br>";
+            }
+        } else {
+            echo "0 results";
+        }
+    ?>
         <h1>Heading 1</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, error qui incidunt vitae, expedita laborum veritatis quia eum labore a non distinctio odit! Illo quae reiciendis impedit, cupiditate eaque officiis?
             Apple</p>

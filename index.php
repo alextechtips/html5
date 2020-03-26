@@ -1,4 +1,5 @@
 <?php 
+    $page_title = "HTML5";
     include_once("./includes/header.php"); 
 ?>
     <div class="page_header">
